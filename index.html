@@ -5,21 +5,38 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="$description$">
-	<title>$title$</title>
+	<title>じゃんけん</title>
 	<link href="//fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
 	<link rel="stylesheet" href="./assets/css/master.css">
 </head>
 
 <body>
 
-	<section class="main">
-
-		<div id="btn">btnです</div>
-		<div id="btn2">btn2です</div>
-
-	</section>
+	<main class="main">
+		<h1>じゃんけん</h1>
+		<section class="player">
+			<h2>プレイヤー</h2>
+			<ul class="list-janken">
+				<li><a href="#" data-janken="0"><img src="./assets/img/gu.png" alt=""></a></li>
+				<li><a href="#" data-janken="1"><img src="./assets/img/choki.png" alt=""></a></li>
+				<li><a href="# " data-janken="2 "><img src="./assets/img/pa.jpeg " alt=" "></a></li>
+			</ul>
+		</section>
+		<section class="enemy ">
+			<h2>エネミー</h2>
+			<ul class="list-janken ">
+				<li><img src="./assets/img/gu.png " alt=" "></li>
+				<li><img src="./assets/img/choki.png " alt=" "></li>
+				<li><img src="./assets/img/pa.jpeg" alt=""></li>
+			</ul>
+		</section>
+		<section class="judg">
+			<h2>判定</h2>
+			<p>勝ち</p>
+		</section>
+	</main>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="./assets/js/min/run.js"></script>
+	<script src="./assets/js/run.js"></script>
 </body>
 
 </html>
